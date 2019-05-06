@@ -4,7 +4,7 @@ services:
       image: kimpa0107/mysql:5.7
       container_name: mysql
       environment:
-        - MYSQL_ROOT_PASSWORD=pado.2015
+        - MYSQL_ROOT_PASSWORD=rootpassword
         - MYSQL_DATABASE=ikimpa.com
       volumes:
         - ./data:/var/lib/mysql
